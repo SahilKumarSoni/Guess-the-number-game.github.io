@@ -1,0 +1,57 @@
+body{
+    background-color: #212121;
+}
+.navbar{
+    background-color: rgb(41, 79, 41);
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 24px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.guessField{
+    padding:10px;
+    border-radius: 8px;
+}
+.guessSubmit{
+    padding:10px;
+    border-radius: 8px;
+    background-color: rgb(41, 79, 41);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 0.5s;
+}
+.guessSubmit:hover{
+    color: rgb(41, 79, 41);
+    background-color: rgb(255, 255, 255);
+}
+.resultParas{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#newGame{
+    padding:10px;
+    border-radius: 8px;
+    background-color: rgb(41, 79, 41);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 0.5s;
+}
+#newGame:hover{
+    color: rgb(41, 79, 41);
+    background-color: rgb(255, 255, 255);
+}
